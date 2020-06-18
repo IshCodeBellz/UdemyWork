@@ -12,5 +12,10 @@ public class Main {
         System.out.println(myUnicodeChar);
         System.out.println(myMyCopyrightChar);
 
+        boolean myTrueBooleanValue = true;
+        boolean myFalseBooleanValue = false;
+
+        boolean isCustomerOverTwentryOne = true; 
+
     }
 }
