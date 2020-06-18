@@ -17,14 +17,14 @@ public interface DVDLibraryDao {
          * @return the Student object previously associated with the given
          * student id if it exists, null otherwise
          */
-        DVD addDVD(String releaseDate, DVD dvd) throws DVDLibraryDaoException;
+        DVD addDVD(String releaseDate, DVD dvd) throws DVDLibraryPersistenceException;
 
         /**
          * Returns a List of all students in the roster.
          *
          * @return List containing all students in the roster.
          */
-        List<DVD> getAllDVDs()throws DVDLibraryDaoException;
+        List<DVD> getAllDVDs()throws DVDLibraryPersistenceException;
 
         /**
          * Returns the student object associated with the given student id.
@@ -34,7 +34,7 @@ public interface DVDLibraryDao {
          * @return the Student object associated with the given student id,
          * null if no such student exists
          */
-        DVD getDVD(String releaseDate)throws DVDLibraryDaoException;
+        DVD getDVD(String releaseDate)throws DVDLibraryPersistenceException;
 
         /**
          * Removes from the roster the student associated with the given id.
@@ -45,6 +45,6 @@ public interface DVDLibraryDao {
          * @return Student object that was removed or null if no student
          * was associated with the given student id
          */
-        DVD removeDVD(String releaseDate)throws DVDLibraryDaoException;
+        DVD removeDVD(String releaseDate)throws DVDLibraryPersistenceException;
 
 }

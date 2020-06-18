@@ -1,8 +1,11 @@
 package controller;
 
+
+import DVDLibraryServiceLayer.DVDLibraryDataValidationException;
+import DVDLibraryServiceLayer.DVDLibraryDuplicateIdException;
+import DVDLibraryServiceLayer.DVDLibraryServiceLayer;
 import dao.DVDLibraryDao;
-import dao.DVDLibraryDaoException;
-import dao.DVDLibraryDaoFileImpl;
+import dao.DVDLibraryPersistenceException;
 import dto.DVD;
 import ui.DVDLibraryView;
 import ui.UserIO;
@@ -13,7 +16,7 @@ import java.util.List;
 public class DVDLibraryController {
 
     private DVDLibraryView view;
-    private DVDLibraryDao dao;
+    private DVDLibraryServiceLayer service;
     private UserIO io = new UserIOConsoleImpl();
 
 
@@ -48,7 +51,7 @@ public class DVDLibraryController {
 
         }
         exitMessage();
-        } catch (DVDLibraryDaoException e) {
+        } catch (DVDLibraryPersistenceException e) {
             view.displayErrorMessage(e.getMessage());
         }
     }
@@ -56,29 +59,40 @@ public class DVDLibraryController {
     private int getMenuSelection() {
         return view.printMenuAndGetSelection();
     }
-    private void createDVD() throws DVDLibraryDaoException {
-        view.displayCreateDVDBanner();
-        DVD newDVD = view.getNewDVDInfo();
-        dao.addDVD(newDVD.getReleaseDate(), newDVD);
-        view.displayCreateSuccessBanner();
+
+    private void createDVD() throws DVDLibraryPersistenceException {
+            view.displayCreateDVDBanner();
+            boolean hasErrors = false;
+            do {
+                DVD currentDVD = view.getNewDVDInfo();
+                try {
+                    service.createDVD(currentDVD);
+                    view.displayCreateSuccessBanner();
+                    hasErrors = false;
+                }
+                catch (DVDLibraryDuplicateIdException | DVDLibraryDataValidationException e) {
+                    hasErrors = true;
+                    view.displayErrorMessage(e.getMessage());
+                }
+            } while (hasErrors);
     }
-    private void listDVDs() throws DVDLibraryDaoException{
-        view.displayDisplayAllBanner();
-        List<DVD> dvdList = dao.getAllDVDs();
+
+    private void listDVDs() throws DVDLibraryPersistenceException {
+        List<DVD> dvdList = service.getAllDVDs();
+
         view.displayDVDList(dvdList);
     }
-    private void viewDVD() throws DVDLibraryDaoException{
-        view.displayDisplayDVDBanner();
+    private void viewDVD() throws DVDLibraryPersistenceException {
         String releaseDate = view.getReleaseDateChoice();
-        DVD dvd = dao.getDVD(releaseDate);
+        DVD dvd = service.getDVD(releaseDate) ;
         view.displayDVD(dvd);
     }
 
-    private void removeDVD() throws DVDLibraryDaoException{
-        view.displayRemoveDVDBanner();
-        String releaseDate = view.getReleaseDateChoice();
-        DVD removedStudent = dao.removeDVD(releaseDate);
-        view.displayRemoveResult(removedStudent);
+    private void removeDVD() throws DVDLibraryPersistenceException {
+            view.displayRemoveDVDBanner();
+            String releaseDate = view.getReleaseDateChoice();
+            service.removeDVD(releaseDate);
+            view.displayRemoveSuccessBanner();
     }
 
     private void unknownCommand() {
@@ -90,7 +104,7 @@ public class DVDLibraryController {
     }
 
     public DVDLibraryController(DVDLibraryDao dao, DVDLibraryView view) {
-        this.dao = dao;
+        this.service = service;
         this.view = view;
     }
 

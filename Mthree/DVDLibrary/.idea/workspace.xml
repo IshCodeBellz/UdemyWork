@@ -20,41 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c07a9946-a178-4d35-bc6b-5128c85d6d06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Classes/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Classes/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Classes/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Classes/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Classes/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Classes/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Classes/Classes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Classes/src/com/company/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Classes/src/com/company/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Classes/src/com/company/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Classes/src/com/company/PersonApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Classes/src/com/company/SimpleCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/roster.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/src/dao/ClassRosterDaoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dvdlibrary.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/DVDLibraryDaoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UserIO/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UserIO/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UserIO/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UserIO/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UserIO/UserIO.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UserIO/src/userio/TestingUserIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UserIO/src/userio/UserIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UserIO/src/userio/UserIOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CharAndBoolean/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CharAndBoolean/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../InterestCal/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../InterestCal/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../InterestCal/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../InterestCal/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../InterestCal/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../InterestCal/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../InterestCal/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../InterestCal/InterestCal.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../InterestCal/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LuckySeven/src/com/company/Main.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/src/dao/ClassRosterPersistenceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/src/service/ClassRosterDataValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/src/service/ClassRosterDuplicateIdException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/src/service/ClassRosterServiceLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/src/service/ClassRosterServiceLayerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DVDLibraryServiceLayer/DVDLibraryDataValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DVDLibraryServiceLayer/DVDLibraryDuplicateIdException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DVDLibraryServiceLayer/DVDLibraryServiceLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DVDLibraryServiceLayer/DVDLibraryServiceLayerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/DVDLibraryPersistenceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterestCal 2.0/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassRoster1.0/src/com/sg/classroster/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClassRoster1.0/src/com/sg/classroster/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassRoster1.0/src/controller/ClassRosterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClassRoster1.0/src/controller/ClassRosterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassRoster1.0/src/dao/ClassRosterDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClassRoster1.0/src/dao/ClassRosterDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassRoster1.0/src/dao/ClassRosterDaoException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassRoster1.0/src/dao/ClassRosterDaoFileImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClassRoster1.0/src/dao/ClassRosterDaoFileImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/DVDLibraryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/DVDLibraryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/DVDLibraryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/DVDLibraryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/DVDLibraryDaoException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/DVDLibraryDaoFileImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/DVDLibraryDaoFileImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InterestCal/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../InterestCal/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +51,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -131,6 +119,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="65" width="800" height="717" key="#Intentions" timestamp="1592435376083">
@@ -141,10 +130,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="369" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1592464159175" />
-    <state x="789" y="66" key="#com.intellij.ide.util.MemberChooser" timestamp="1592453673156">
+    <state x="789" y="66" key="#com.intellij.ide.util.MemberChooser" timestamp="1592474289219">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="789" y="66" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1592453673156" />
+    <state x="789" y="66" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1592474289219" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1592465106659">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

@@ -13,7 +13,7 @@ public class DVDLibraryDaoFileImpl implements DVDLibraryDao {
 
 
     @Override
-    public DVD addDVD(String releaseDate, DVD dvd) throws DVDLibraryDaoException{
+    public DVD addDVD(String releaseDate, DVD dvd) throws DVDLibraryPersistenceException {
         loadRoster();
         DVD prevDVD = dvds.put(releaseDate, dvd);
         writeRoster();
@@ -21,19 +21,19 @@ public class DVDLibraryDaoFileImpl implements DVDLibraryDao {
     }
 
     @Override
-    public List<DVD> getAllDVDs() throws DVDLibraryDaoException{
+    public List<DVD> getAllDVDs() throws DVDLibraryPersistenceException {
         loadRoster();
         return new ArrayList<DVD>(dvds.values());
     }
 
     @Override
-    public DVD getDVD(String releaseDate) throws DVDLibraryDaoException{
+    public DVD getDVD(String releaseDate) throws DVDLibraryPersistenceException {
         loadRoster();
         return dvds.get(releaseDate);
     }
 
     @Override
-    public DVD removeDVD(String releaseDate) throws DVDLibraryDaoException{
+    public DVD removeDVD(String releaseDate) throws DVDLibraryPersistenceException {
         loadRoster();
         DVD removedDVD = dvds.remove(releaseDate);
         writeRoster();
@@ -82,7 +82,7 @@ public class DVDLibraryDaoFileImpl implements DVDLibraryDao {
         // We have now created a student! Return it!
         return dvdFromFile;
     }
-    private void loadRoster() throws DVDLibraryDaoException {
+    private void loadRoster() throws DVDLibraryPersistenceException {
         Scanner scanner;
 
         try {
@@ -91,7 +91,7 @@ public class DVDLibraryDaoFileImpl implements DVDLibraryDao {
                     new BufferedReader(
                             new FileReader(ROSTER_FILE)));
         } catch (FileNotFoundException e) {
-            throw new DVDLibraryDaoException(
+            throw new DVDLibraryPersistenceException(
                     "-_- Could not load roster data into memory.", e);
         }
         // currentLine holds the most recent line read from the file
@@ -147,9 +147,9 @@ public class DVDLibraryDaoFileImpl implements DVDLibraryDao {
      * Writes all students in the roster out to a ROSTER_FILE.  See loadRoster
      * for file format.
      *
-     * @throws DVDLibraryDaoException if an error occurs writing to the file
+     * @throws DVDLibraryPersistenceException if an error occurs writing to the file
      */
-    private void writeRoster() throws DVDLibraryDaoException {
+    private void writeRoster() throws DVDLibraryPersistenceException {
         // NOTE FOR APPRENTICES: We are not handling the IOException - but
         // we are translating it to an application specific exception and
         // then simple throwing it (i.e. 'reporting' it) to the code that
@@ -160,7 +160,7 @@ public class DVDLibraryDaoFileImpl implements DVDLibraryDao {
         try {
             out = new PrintWriter(new FileWriter(ROSTER_FILE));
         } catch (IOException e) {
-            throw new DVDLibraryDaoException(
+            throw new DVDLibraryPersistenceException(
                     "Could not save student data.", e);
         }
 
