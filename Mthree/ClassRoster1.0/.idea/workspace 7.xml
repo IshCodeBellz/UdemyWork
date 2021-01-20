@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c07a9946-a178-4d35-bc6b-5128c85d6d06" name="Default Changelist" comment="">
+    <list default="true" id="e84ecba2-c0a7-4c08-957d-231f13e10691" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../.idea/description.html" afterDir="false" />
@@ -89,49 +71,49 @@
       <change afterPath="$PROJECT_DIR$/../../Java Developer Udemy/HelloWorld/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Java Developer Udemy/HelloWorld/HelloWorld.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Java Developer Udemy/HelloWorld/src/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/ClassRoster1.0.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/audit.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/roster.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/src/com/sg/classroster/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/src/controller/ClassRosterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/src/dao/ClassRosterAuditDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/src/dao/ClassRosterAuditDaoFileImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/src/dao/ClassRosterDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/src/dao/ClassRosterDaoFileImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/src/dao/ClassRosterPersistenceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/src/dto/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/src/service/ClassRosterDataValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/src/service/ClassRosterDuplicateIdException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/src/service/ClassRosterServiceLayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/src/service/ClassRosterServiceLayerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/src/ui/ClassRosterView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/src/ui/UserIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClassRoster1.0/src/ui/UserIOConsoleImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DVDLibrary.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dvdlibrary.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DVDLibrary/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DVDLibraryServiceLayer/DVDLibraryDataValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DVDLibraryServiceLayer/DVDLibraryDuplicateIdException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DVDLibraryServiceLayer/DVDLibraryServiceLayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DVDLibraryServiceLayer/DVDLibraryServiceLayerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/DVDLibraryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/DVDLibraryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/DVDLibraryDaoFileImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/DVDLibraryPersistenceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dto/DVD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/DVDLibraryView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassRoster1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audit.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roster.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sg/classroster/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/ClassRosterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/ClassRosterAuditDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/ClassRosterAuditDaoFileImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/ClassRosterDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/ClassRosterDaoFileImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/ClassRosterPersistenceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/ClassRosterDataValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/ClassRosterDuplicateIdException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/ClassRosterServiceLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/ClassRosterServiceLayerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/ClassRosterView.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ui/UserIO.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ui/UserIOConsoleImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DVDLibrary/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DVDLibrary/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DVDLibrary/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DVDLibrary/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DVDLibrary/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DVDLibrary/DVDLibrary.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DVDLibrary/dvdlibrary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DVDLibrary/src/DVDLibrary/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DVDLibrary/src/DVDLibraryServiceLayer/DVDLibraryDataValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DVDLibrary/src/DVDLibraryServiceLayer/DVDLibraryDuplicateIdException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DVDLibrary/src/DVDLibraryServiceLayer/DVDLibraryServiceLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DVDLibrary/src/DVDLibraryServiceLayer/DVDLibraryServiceLayerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DVDLibrary/src/controller/DVDLibraryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DVDLibrary/src/dao/DVDLibraryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DVDLibrary/src/dao/DVDLibraryDaoFileImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DVDLibrary/src/dao/DVDLibraryPersistenceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DVDLibrary/src/dto/DVD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DVDLibrary/src/ui/DVDLibraryView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DVDLibrary/src/ui/UserIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DVDLibrary/src/ui/UserIOConsoleImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Data Marshalling and Unmarshalling/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Data Marshalling and Unmarshalling/.idea/description.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Data Marshalling and Unmarshalling/.idea/encodings.xml" afterDir="false" />
@@ -340,107 +322,22 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
-  <component name="ProjectId" id="1dSWFnDQnsLIxkamugXhM9qZSDu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
+  <component name="ProjectId" id="1da2XFPA80pGLYvc1HowdgLpS8Y" />
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DVDLibrary.App" />
-      <module name="DVDLibrary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DVDLibrary.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.App" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c07a9946-a178-4d35-bc6b-5128c85d6d06" name="Default Changelist" comment="" />
-      <created>1592418873900</created>
+      <changelist id="e84ecba2-c0a7-4c08-957d-231f13e10691" name="Default Changelist" comment="" />
+      <created>1592648921409</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1592418873900</updated>
+      <updated>1592648921409</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="240" y="65" width="800" height="717" key="#Intentions" timestamp="1592435376083">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="240" y="65" width="800" height="717" key="#Intentions/0.0.1280.800@0.0.1280.800" timestamp="1592435376083" />
-    <state x="369" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592464159175">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="369" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1592464159175" />
-    <state x="789" y="66" key="#com.intellij.ide.util.MemberChooser" timestamp="1592474289219">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="789" y="66" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1592474289219" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1592465106659">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1592465106659" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1592465106658">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1592465106658" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1592465106657">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1592465106657" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1592465106659">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1592465106659" />
   </component>
 </project>
